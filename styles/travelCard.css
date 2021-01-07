@@ -1,0 +1,17 @@
+.containerLeft__travelLocations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.locationImg {
+    
+    height: 250px;
+    width: 350px;
+}
+
+.locationCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

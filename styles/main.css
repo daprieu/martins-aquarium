@@ -1,0 +1,45 @@
+@import "./fish.css";
+@import "./quoteCard.css";
+@import "./travelCard.css";
+
+header {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.contentContainer {
+    display: flex;
+    background-color: slategrey;
+}
+
+.containerLeft {
+    flex-basis: 75%;
+}
+
+.containerRight {
+    background-color: tan;
+    flex-basis: 25%;
+    font-size: 20px;
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+
+}
+
+footer {
+    background-color: lightgray;
+    display: flex;
+    display: row;
+
+}
+
+footer, a {
+    margin-right: 10px;
+    padding-right: 5px;
+}
+
+
