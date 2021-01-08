@@ -8,12 +8,13 @@
 }
 
 .fishCard {
-    border: solid black;
+    border: solid darkslategrey;
+    border-radius: 35px;
     padding: 2px;
     background-color: lightgray;
     margin: 2px;
     font-size: 20px;
-
+    box-shadow: 10px 10px 5px darkslategray;
 }
 
 .fishIMG {
