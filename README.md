@@ -1,1 +1,1 @@
-![wireframe](./logo/wireframe martins aquarium.png)
+![wireframe](logo/wireframe-martins-aquarium.png)
