@@ -1,4 +1,4 @@
-Const fishCollection = [
+const fishCollection = [
     {
         name: "Nemo",
         species: "Amphiprioninae",
@@ -6,19 +6,21 @@ Const fishCollection = [
         length: "2 in",
         diet: "seafood"
     }
+
     {
         name: "Sue Jorge",
         species: "Physalia",
-        locations: "",
+        locations: "a",
         length: "165 feet",
         diet: "seafood"
     }
+
     {
         name: "Doc",
         species: "A. sohal",
-        locations: "",
+        locations: "a",
         length: "16 in",
-        diet: ""
+        diet: "seafood"
     }
 ]
 
