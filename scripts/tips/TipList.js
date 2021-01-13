@@ -4,7 +4,7 @@ import { Tips } from "/scripts/tips/Tip.js"
  *  FishList which renders individual fish objects as HTML
  */
 
-// TODO: Import `useFish` from the data provider module
+// TODO: Import `useTips` from the data provider module
 
 export const TipList = () => {
 

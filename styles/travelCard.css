@@ -1,15 +1,16 @@
-.containerLeft__travelLocations {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        justify-content: left;
+.locationList {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: left;
 }
 
-.locationCard {
-margin: 4px;
+.location {
+    margin: 4px;
 }
 
-.locationImg {
+.location__image {
+    border: solid aliceblue;
     box-shadow: 10px 10px 5px darkslategray;
     height: 250px;
     width: 350px;
