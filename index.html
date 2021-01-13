@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="./styles/main.css">
   <title>Document</title>
 </head>
-<script type="module" src="scripts/main.js"></script>
+
 <body>
   <main>
     <header>
-      <img class="logo" src="/logo/martins logo.png" alt="martin fish logo">
+      <img class="logo" src="./logo/martins logo.png" alt="martin fish logo">
       <h1>Martin's Aquarium</h1>
       <nav>
         <a class="nav" href="#fishList">Fish List</a>
@@ -22,127 +22,9 @@
 
     <section class="contentContainer">
       <div class="containerLeft">
+        
         <article class="containerLeft__fishList contentArticle" id="fishList">
-          <div class="fishCard">
-            <p class="fishCard__name">Nemo</p>
-            <p class="fishCard__species">Amphiprioninae</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">couple inches</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="https://www.aquariumofpacific.org/images/made_new/images-uploads-clownfish_600_q85.jpg"
-              alt="clownfish swimming">
-          </div>
 
-          <div class="fishCard">
-            <p class="fishCard__name">Sue Jorge</p>
-            <p class="fishCard__species">Physalia</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">165 feet</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="data:image/jpeg;base64,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" alt="">
-          </div>
-
-          <div class="fishCard">
-            <p class="fishCard__name">Doc</p>
-            <p class="fishCard__species">A. sohal</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">16 inches</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="https://www.reefs4less.com/wp-content/uploads/2019/01/sohal-tang-e1550679645823.jpg"
-              alt="surgeonfish">
-          </div>
-          <div class="fishCard">
-            <p class="fishCard__name">Doc</p>
-            <p class="fishCard__species">A. sohal</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">16 inches</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="https://www.reefs4less.com/wp-content/uploads/2019/01/sohal-tang-e1550679645823.jpg"
-              alt="surgeonfish">
-          </div>
-          <div class="fishCard">
-            <p class="fishCard__name">Doc</p>
-            <p class="fishCard__species">A. sohal</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">16 inches</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="https://www.reefs4less.com/wp-content/uploads/2019/01/sohal-tang-e1550679645823.jpg"
-              alt="surgeonfish">
-          </div>
-          <div class="fishCard">
-            <p class="fishCard__name">Doc</p>
-            <p class="fishCard__species">A. sohal</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">16 inches</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="https://www.reefs4less.com/wp-content/uploads/2019/01/sohal-tang-e1550679645823.jpg"
-              alt="surgeonfish">
-          </div>
-          <div class="fishCard">
-            <p class="fishCard__name">Doc</p>
-            <p class="fishCard__species">A. sohal</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">16 inches</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="https://www.reefs4less.com/wp-content/uploads/2019/01/sohal-tang-e1550679645823.jpg"
-              alt="surgeonfish">
-          </div>
-          <div class="fishCard">
-            <p class="fishCard__name">Doc</p>
-            <p class="fishCard__species">A. sohal</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">16 inches</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="https://www.reefs4less.com/wp-content/uploads/2019/01/sohal-tang-e1550679645823.jpg"
-              alt="surgeonfish">
-          </div>
-          <div class="fishCard">
-            <p class="fishCard__name">Doc</p>
-            <p class="fishCard__species">A. sohal</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">16 inches</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="https://www.reefs4less.com/wp-content/uploads/2019/01/sohal-tang-e1550679645823.jpg"
-              alt="surgeonfish">
-          </div>
-          <div class="fishCard">
-            <p class="fishCard__name">Doc</p>
-            <p class="fishCard__species">A. sohal</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">16 inches</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="https://www.reefs4less.com/wp-content/uploads/2019/01/sohal-tang-e1550679645823.jpg"
-              alt="surgeonfish">
-          </div>
-          <div class="fishCard">
-            <p class="fishCard__name">Doc</p>
-            <p class="fishCard__species">A. sohal</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">16 inches</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="https://www.reefs4less.com/wp-content/uploads/2019/01/sohal-tang-e1550679645823.jpg"
-              alt="surgeonfish">
-          </div>
-          <div class="fishCard">
-            <p class="fishCard__name">Doc</p>
-            <p class="fishCard__species">A. sohal</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">16 inches</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="https://www.reefs4less.com/wp-content/uploads/2019/01/sohal-tang-e1550679645823.jpg"
-              alt="surgeonfish">
-          </div>
-
-          <div class="fishCard">
-            <p class="fishCard__name">Doc</p>
-            <p class="fishCard__species">A. sohal</p>
-            <p class="fishCard__location">Great Barrier Reef, Australia</p>
-            <p class="fishCard__length">16 inches</p>
-            <p class="fishCard__diet">seafood</p>
-            <img class="fishIMG" src="https://www.reefs4less.com/wp-content/uploads/2019/01/sohal-tang-e1550679645823.jpg"
-              alt="surgeonfish">
-          </div>
-          
         </article>
         <article class="containerLeft__travelQuotes contentArticle" id="travelQuotes">
             <div class="quoteCard">
@@ -173,36 +55,11 @@
           </div>
         </article>
         <article class="containerLeft__travelLocations contentArticle" id="travelLocations">
-            <div class="locationCard">
-                <img class="locationImg" src="https://geo3.ggpht.com/cbk?panoid=NvJWApVwGtUQMmS_RXG-Og&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&w=408&h=240&yaw=100.71041&pitch=0&thumbfov=100" alt="Bikes infron of fish charter company">
-                <p class="locationCard__city">Key West</p>
-                <p class="locationCard__country">United States</p>
-                <p class="locationCard__waterBody">Atlantic</p>                
-            </div>
 
-            <div class="locationCard">
-                <img class="locationImg" src="http://www.tnmovingwaters.com/image/79090089_scaled_394x264.jpg" alt="Huge Stripper">
-                <p class="locationCard__city">Middle, TN</p>
-                <p class="locationCard__country">United States</p>
-                <p class="locationCard__waterBody">Undisclosed River in middle TN</p>                
-            </div>
-            <div class="locationCard">
-              <img class="locationImg" src="https://geo3.ggpht.com/cbk?panoid=NvJWApVwGtUQMmS_RXG-Og&output=thumbnail&cb_client=search.gws-prod.gps&thumb=2&w=408&h=240&yaw=100.71041&pitch=0&thumbfov=100" alt="Bikes infron of fish charter company">
-              <p class="locationCard__city">Key West</p>
-              <p class="locationCard__country">United States</p>
-              <p class="locationCard__waterBody">Atlantic</p>                
-          </div>
-
-          <div class="locationCard">
-              <img class="locationImg" src="http://www.tnmovingwaters.com/image/79090089_scaled_394x264.jpg" alt="Huge Stripper">
-              <p class="locationCard__city">Middle, TN</p>
-              <p class="locationCard__country">United States</p>
-              <p class="locationCard__waterBody">Undisclosed River in middle TN</p>                
-          </div>
         </article>
       </div>
       <aside class="containerRight">
-          <ul>Tips
+          <!-- <ul>Tips
               <li>Filtration</li>
                 <ul>Combined biological and mechanical aquarium filtration systems are common. These either convert ammonia to nitrate (removing nitrogen at the expense of aquatic plants), or to sometimes remove phosphate. Filter media can house microbes that mediate nitrification. Filtration systems are sometimes the most complex component of home aquaria.[60]</ul>
               <li>Check Ph</li>
@@ -218,7 +75,7 @@
                 <ul></ul>
               <li>Water changes</li>
                 <ul></ul>
-          </ul>
+          </ul> -->
       </aside>
     </section>
 
@@ -232,7 +89,7 @@
     </footer>
 
   </main>
-
+  <script type="module" src="scripts/main.js"></script>
 </body>
 
 </html>
