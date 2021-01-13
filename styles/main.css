@@ -26,6 +26,7 @@ nav, a {
     color: midnightblue;
     font-size: 20px;
     text-align: right;
+    cursor: pointer;
 }
 
 nav, a:hover {
