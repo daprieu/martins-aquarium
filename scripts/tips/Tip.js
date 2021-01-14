@@ -4,12 +4,16 @@
 export const Tips = (tip) => {
     return `
         <section class="tip card">
-            
-            <div class="tip__filtration">Filtration: ${tip.filtration}</div>
-            <div class="tip__pH">pH: ${tip.pH}</div>
-            <div class="tip__nitrates">Nitrates: ${tip.nitrates}</div>
-            <div class="tip__food">Food: ${tip.food}</div>
-            <div class="tip__water">Water: ${tip.water}</div>
+            <p>Filtration:</p>
+            <div class="tip__filtration">${tip.filtration}</div>
+            <p>pH:</p>
+            <div class="tip__pH">${tip.pH}</div>
+            <p>Nitrates:</p>
+            <div class="tip__nitrates">${tip.nitrates}</div>
+            <p>Food:</p>
+            <div class="tip__food">${tip.food}</div>
+            <p>Water:</p>
+            <div class="tip__water">${tip.water}</div>
         </section>
     `
-}
+} 

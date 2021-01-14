@@ -3,13 +3,13 @@ const locationCollection = [
         city: "Key West",
         country: "United States",
         waterBody: "Atlantic",
-        image: "logo/fishPics/nemo.jpeg"
+        image: "logo/fishPics/kwSalty.jpeg"
     },
     {
-        city: "Middle, TN",
-        country: "United States",
-        waterBody: "confidential",
-        image: "logo/fishPics/nemo.jpeg"
+        city: "Adelaide",
+        country: "Australia",
+        waterBody: "Indian Ocean",
+        image: "logo/fishPics/strailiaReef.jpeg"
     },
 ]
 
