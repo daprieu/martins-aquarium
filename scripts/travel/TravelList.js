@@ -27,7 +27,9 @@ export const TravelList = () => {
 
     // Add to the existing HTML in the content element
     contentElement.innerHTML += `
+    
         <article class="travelList">
+        <p>Travel Quotes</p>
             ${travelHTMLRepresentations}
         </article>
     `
