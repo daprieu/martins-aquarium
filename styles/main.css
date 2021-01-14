@@ -1,6 +1,6 @@
 @import "./fish.css";
 @import "./quoteCard.css";
-@import "./travelCard.css";
+@import "./locationCard.css";
 
 header {
     background-color: lightgray;
