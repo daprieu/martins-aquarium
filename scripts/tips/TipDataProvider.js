@@ -12,4 +12,4 @@ const tips = [
 
 export const useTips = () => {
     return tips.slice()
-}
+}  
