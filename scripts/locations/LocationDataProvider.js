@@ -11,6 +11,18 @@ const locationCollection = [
         waterBody: "Indian Ocean",
         image: "logo/fishPics/strailiaReef.jpeg"
     },
+    {
+        city: "Nassau",
+        country: "Bahamas",
+        waterBody: "Atlantic",
+        image: "logo/fishPics/coralCollection.jpeg"
+    },
+    {
+        city: "Wailea-Makena",
+        country: "Hawaii",
+        waterBody: "Pacific Ocean",
+        image: "logo/fishPics/fish in net.jpeg"
+    },
 ]
 
 export const useLocation = () => {
