@@ -55,36 +55,39 @@ export const useFish = () => {
 
 export const mostHolyFish = () => {
     // 3, 6, 9, 12, etc... fish
-    let holyFish = []
+    const holyFish = []
     for (const fishSizeObj of fishCollection) {
-        if (fishSizeObj.length % 3 === 0) 
-            holyFish.push(fishSizeObj)    
-            console.log("holyFish", holyFish)          
+        if (fishSizeObj.length % 3 === 0) {            
+            holyFish.push(fishSizeObj)                 
+        } 
     }
-    return holyFish
+    // console.log("holy", holyFish)
+    return holyFish 
     
 }
 
 
 export const soldierFish = () => {
     // 5, 10, 15, 20, 25, etc... fish
-    let soldiers = []
+    const soldiers = []
     for (const fishSizeObj of fishCollection) {
-        if (fishSizeObj.length % 5 === 0) 
-            soldiers.push(fishSizeObj)
-            console.log("soldier", soldiers)
+        if (fishSizeObj.length % 5 === 0) {
+            soldiers.push(fishSizeObj)            
+        }
     }
+    // console.log("soldier", soldiers)
     return soldiers
 }
 
 export const nonHolyFish = () => {
     // Any fish not a multiple of 3 or 5
-    let regularFish = []
+    const regularFish = []
     for (const fishSizeObj of fishCollection) {
-        if (fishSizeObj.length % 3 !== 0 && fishSizeObj.length % 5 !== 0)
-            regularFish.push(fishSizeObj)
-            console.log("reg", regularFish)
+        if (fishSizeObj.length % 3 !== 0 && fishSizeObj.length % 5 !== 0) {
+            regularFish.push(fishSizeObj)            
+        }
     }  
+    // console.log("reg", regularFish)
     return regularFish
 }
 
