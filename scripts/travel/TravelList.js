@@ -29,7 +29,6 @@ export const TravelList = () => {
     contentElement.innerHTML += `
     
         <article class="travelList">
-        <p>Travel Quotes</p>
             ${travelHTMLRepresentations}
         </article>
     `

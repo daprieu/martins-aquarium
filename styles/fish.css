@@ -1,3 +1,12 @@
+.containerLeft__fishList {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+.fishCollectionTitle {
+    font-size: 40px;
+}
+
 .fishList {
     display: flex;
     flex-direction: row;
@@ -12,14 +21,15 @@
     border-radius: 35px;
     padding: 2px;
     background-color: lightgray;
-    margin: 8px;
+    margin: 8px 8px 12px 8px;
     font-size: 20px;
     box-shadow: 10px 10px 5px darkslategray;
+    width: 425px;
 }
 
 .fish__image {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     border-radius: 60px;
     
 }

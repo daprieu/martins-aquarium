@@ -1,12 +1,19 @@
 .containerLeft__travelQuotes {
     display: flex;
+    flex-direction: column;
+    text-align: center;    
+    background-color: lightgray;
+}
+
+.travelQuotesTitle {
+    font-size: 40px;
 }
 .travelList {
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: left;
-    background-color: lightgray;
+
 }
 
 .travel {
