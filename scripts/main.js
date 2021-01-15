@@ -12,12 +12,13 @@ LocationList()
 TipList()
 TravelList()
 // area for ch13
-// import { mostHolyFish } from "/scripts/fish/FishDataProvider.js"
-// import { soldierFish } from "/scripts/fish/FishDataProvider.js"
-// import { nonHolyFish } from "/scripts/fish/FishDataProvider.js"
+import { mostHolyFish } from "/scripts/fish/FishDataProvider.js"
+import { soldierFish } from "/scripts/fish/FishDataProvider.js"
+import { nonHolyFish } from "/scripts/fish/FishDataProvider.js"
 
-// mostHolyFish()
-// soldierFish()
-// nonHolyFish()
+mostHolyFish()
+soldierFish()
+nonHolyFish()
+
 
 
